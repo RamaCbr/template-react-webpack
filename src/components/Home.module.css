@@ -1,0 +1,26 @@
+.Home {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	background-color: #282c34;
+	padding: 2.1875rem;
+	border-radius: 15px;
+	color: #61dafb;
+}
+
+.Home-icon {
+	width: 70%;
+}
+
+.Home-title {
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 760px) {
+	.Home-title {
+		font-size: 1em;
+	}
+}
